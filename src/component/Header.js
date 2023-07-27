@@ -12,20 +12,20 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div className="container">
-                    <a className="navbar-brand text-uppercase display-1 Logo" href="#">Netflix</a>
+                    <Link className="navbar-brand text-uppercase display-1 Logo" href="#">Netflix</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="mynavbar">
                         <ul className="navbar-nav me-auto">
                             <li className="nav-item">
-                                <Link to="/Home" className="nav-link" href="javascript:void(0)">Home</Link>
+                                <Link to="/Home" className="nav-link" >Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className="nav-link" href="javascript:void(0)">Movies</Link>
+                                <Link to="/" className="nav-link" >Movies</Link>
                             </li>
                             {/* <li className="nav-item">
-                                <a className="nav-link" href="javascript:void(0)">Link</a>
+                                <Link className="nav-link" >Link</Link>
                             </li> */}
                         </ul>
                         <div className="d-flex flex-column my-auto">
