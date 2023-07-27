@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -50,7 +51,7 @@ const Home = () => {
                             <img
                                 src='https://i.ibb.co/v3cQBfj/tv.png'
                                 style={{ height: "100%", width: "100%" }}
-                                alt="breakfast image"
+                                alt="breakfast"
                             />
                         </div>
                     </div>
@@ -61,7 +62,7 @@ const Home = () => {
                             <img
                                 src="https://i.ibb.co/7RpzCjp/mobile-0819.jpg"
                                 style={{ height: "100%", width: "100%" }}
-                                alt="breakfast image"
+                                alt="breakfast"
                             />
                         </div>
                         <div className="col-6">
@@ -92,7 +93,7 @@ const Home = () => {
                             <img
                                 src="https://i.ibb.co/BTphrKr/device-pile-in.png"
                                 style={{ height: "100%", width: "100%" }}
-                                alt="breakfast image"
+                                alt="breakfast"
                             />
                         </div>
                     </div>
@@ -107,7 +108,7 @@ const Home = () => {
                         <div
                             className="card-header btn "
                             data-bs-toggle="collapse"
-                            href="#collapseOne1"
+                            to="#collapseOne1"
                         >
                             <div className="text-start h3">What is Netflix</div>
                         </div>
@@ -127,7 +128,7 @@ const Home = () => {
                         <div
                             className="card-header btn "
                             data-bs-toggle="collapse"
-                            href="#collapseOne2"
+                            to="#collapseOne2"
                         >
                             <div className="text-start h3">How much does Netflix cost?</div>
                         </div>
@@ -143,7 +144,7 @@ const Home = () => {
                         <div
                             className="card-header btn "
                             data-bs-toggle="collapse"
-                            href="#collapseOne3"
+                            to="#collapseOne3"
                         >
                             <div className="text-start h3">Where can I watch?</div>
                         </div>
@@ -166,7 +167,7 @@ const Home = () => {
                         <div
                             className="card-header btn "
                             data-bs-toggle="collapse"
-                            href="#collapseOne4"
+                            to="#collapseOne4"
                         >
                             <div className="text-start h3">How do I cancel?</div>
                         </div>
@@ -189,7 +190,7 @@ const Home = () => {
                         <div
                             className="card-header btn "
                             data-bs-toggle="collapse"
-                            href="#collapseOne5"
+                            to="#collapseOne5"
                         >
                             <div className="text-start h3">What can I watch on Netflix?</div>
                         </div>
@@ -205,7 +206,7 @@ const Home = () => {
                         <div
                             className="card-header btn "
                             data-bs-toggle="collapse"
-                            href="#collapseOne6"
+                            to="#collapseOne6"
                         >
                             <div className="text-start h3">Is Netflix good for kids?</div>
                         </div>
@@ -249,94 +250,94 @@ const Home = () => {
                                 </h5>
                                 <ul className="nav flex-column ">
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted ">
+                                        <Link to="#" className="nav-link p-0 text-muted ">
                                             FAQ
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Account
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Jobs
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Privacy
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Contact Us
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Only on Netflix
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-2">
-                                <h5 />
+                                
                                 <ul className="nav flex-column mt-5">
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Gift Card Terms
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Media Centre
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Ways to Watch
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Cookie Preferences
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Speed Test
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-2">
-                                <h5 />
+                                
                                 <ul className="nav flex-column mt-5">
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Home
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Features
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             Pricing
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             FAQs
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a href="#" className="nav-link p-0 text-muted">
+                                        <Link to="#" className="nav-link p-0 text-muted">
                                             About
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -345,25 +346,25 @@ const Home = () => {
                             {/* <p>© Sumit mehra, Edureka at Intern.</p> */}
                             <ul className="list-unstyled d-flex">
                                 <li className="ms-3">
-                                    <a className="link-dark" href="#">
+                                    <Link className="link-dark" to="#">
                                         <svg className="bi" width={24} height={24}>
                                             <use xlinkHref="#twitter" />
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="ms-3">
-                                    <a className="link-dark" href="#">
+                                    <Link className="link-dark" to="#">
                                         <svg className="bi" width={24} height={24}>
                                             <use xlinkHref="#instagram" />
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="ms-3">
-                                    <a className="link-dark" href="#">
+                                    <Link className="link-dark" to="#">
                                         <svg className="bi" width={24} height={24}>
                                             <use xlinkHref="#facebook" />
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
