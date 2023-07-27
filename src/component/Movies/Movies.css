@@ -1,0 +1,67 @@
+.Horizontal-scrollbar-main {
+    /* border: 2px solid red; */
+    margin-top: 1%;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 20px;
+    color: white;
+}
+
+.Horizontal-scrollbar-0
+{
+    /* border: 2px solid red; */
+    overflow-x: scroll;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+}
+.Horizontal-scrollbar-0::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+/* button.icon1 {
+    color: #ebe8e8;
+    background-color: transparent;
+    padding: 0px 20px;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    top: 58vw;
+    left: -2vh;
+} */
+
+/* button.icon2 {
+    color: #ebe8e8;
+    background-color: transparent;
+    padding: 0px 20px;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    top: 58vw;
+    right: -2vw;
+} */
+
+.Horizontal-scrollbar {
+    
+    /* border: 1px solid red; */
+    height: auto;
+    padding: 8px 0px 12px 0px;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: inline-flex;
+    flex-direction: row;
+    min-width: 100%;
+}
+
+.Horizontal-scrollBar-content {
+    height: 22vw;
+    width: 15vw;
+    /* border: 1px solid blue; */
+    margin-left: 9px;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

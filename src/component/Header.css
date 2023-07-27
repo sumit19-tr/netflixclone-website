@@ -1,0 +1,36 @@
+.Logo {
+    font-size: 50px;
+    /* margin-left: 18%; */
+    color: red;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+    color: #f00;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #f00;
+    font-weight: bold;
+}
+
+img.NetflixIcon-img {
+    margin: -8% 0% 1px 10px;
+    scale: 104%;
+}
+
+input.form-control.me-2.rounded-pill {
+    background: transparent;
+    color: white;
+    height: 46px;
+    padding-left: 8%;
+    border: 1px solid;
+    width: 100%;
+}
+
+input.form-control.me-2.rounded-pill:focus {
+    outline: none;
+    /* border: none; */
+    box-shadow: none;
+}

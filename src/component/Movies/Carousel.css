@@ -1,0 +1,68 @@
+button.carousel-control-prev:hover {
+    background-color: transparent;
+}
+
+button.carousel-control-next:hover{
+    background-color: transparent;
+}
+
+ img.d-block {
+    height: 40vw;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor:default;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 5%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+h3.text-capitalize {
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5vw;
+}
+.fa {
+    /* padding: 20px; */
+    font-size: 0.1vw;
+    width: 5vw;
+    text-decoration: none;
+    /* margin: 13px 2px; */
+    border-radius: 50%;
+}
+
+.watch-btn {
+    padding: 0.7vw 4%;
+    /* border: 1px solid black; */
+    border-radius: 1vw;
+    background-color: red;
+    color: white;
+    box-sizing: border-box;
+    font-weight: 900;
+    margin-right: 68vw;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.watch-btn:hover{
+    background-color: rgb(112, 10, 10);
+}
+/* .carousel-caption button:hover{
+    background-color: transparent;
+} */

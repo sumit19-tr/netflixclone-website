@@ -1,0 +1,241 @@
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+#hov:hover{
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 992px) 
+{
+    .height{
+        height: 45rem;
+        width: 100%;
+        background-color: green;
+        overflow: hidden;
+        background-image: url("images/NetflixBackgroundImg.jpg");
+        background-repeat: no-repeat;
+        padding-top: 18%;
+    }  
+    .div2{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        height: auto;
+        width: 60%;
+        /* border: 2px solid blue; */
+        color: aliceblue;
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+    }
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+    button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #ccc;
+      }
+    .nav2{
+        margin-left: 35rem;
+    }
+    .nav1{
+        margin-left: 7rem;
+    }
+    .contentDiv{
+        background-color: green;
+    }  
+    .maxwidth{
+        max-width: 100%;
+    }
+    .padding-extra{
+        padding: 10%;
+
+    }
+      
+}
+@media screen and (max-width: 992px) 
+{
+    .height{
+        height: 25rem;
+        width: 100%;
+        background-color: blue;
+        background-image: url("images/NetflixBackgroundImg.jpg");
+        background-repeat: no-repeat;
+        padding-top: 80px;
+    }  
+    .contentDiv{
+        background-color: blue;
+    }    
+    .div2{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        height: auto;
+        width: 60%;
+        /* border: 2px solid blue; */
+        color: aliceblue;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+    }
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+    button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #ccc;
+      }
+    .nav2{
+        margin-left: 20rem;
+    }
+    .nav1{
+        margin-left: 0;
+    }
+    .img-fluid
+    {
+        width: 100%;
+        height: 23rem;
+    }
+    .maxwidth{
+        max-width: 100%;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+    .height{
+        height: 25rem;
+        width: 100%;
+        padding-top: 80px;
+        background-color: red;
+        background-image: url("images/NetflixBackgroundImg.jpg");
+        background-repeat: no-repeat;
+    } 
+    .contentDiv{
+        background-color: red;;
+    }  
+    .div2{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        height: auto;
+        width: 60%;
+        /* border: 2px solid blue; */
+        color: aliceblue;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+    }   
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+    button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #ccc;
+      }
+    .nav2{
+        margin-left: 0;
+    }
+    .nav1{
+        margin-left: 0;
+    }
+    .img-fluid
+    {
+        width: 100%;
+        height: 23rem;
+    }
+    .maxwidth{
+        max-width: 100%;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 576px) 
+{
+    .nav2{
+        margin-left: 0rem;
+    }
+    .nav1{
+        margin-left: 0rem;
+    }
+    .div2{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        height: auto;
+        width: 60%;
+        /* border: 2px solid blue; */
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+    }  
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+    button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #ccc;
+      }
+    .height{
+        height: 25rem;
+        width: 100%;
+        background-color:black;
+        overflow: hidden;
+        background-image: url("images/NetflixBackgroundImg.jpg");
+        background-repeat: no-repeat;
+        padding-top: 80px;
+    }  
+    .contentDiv{
+        background-color: black;
+    }  
+    .maxwidth{
+        max-width: 100%;
+    }
+    
+}

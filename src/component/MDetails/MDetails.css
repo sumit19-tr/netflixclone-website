@@ -1,0 +1,48 @@
+.Movie-banner{
+    text-align: left;
+    color: white;
+    position: relative;
+}
+
+.Responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 1vw;
+    left: 1%;
+}
+
+.Movie-title{
+    font-family: 'Righteous', cursive;
+}
+
+button.Movie-banner-btn {
+    background-color: #212529;
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+}
+button.Movie-banner-btn:hover{
+    background-color: #b2b2b2;
+    color: black;
+    font-weight: 400;
+    
+}
+
+button i.mbtn.fa.fa-play {
+    padding: -27px;
+    margin-left: -17px;
+    margin-right: -12px;
+} 
+
+.detail-btn {
+    margin-right: 15vw;
+    width: 17vw;
+}
