@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const CoreClub = () => {
 
-    const murl = "http://localhost:9090/moviesCategory/2";
+    const murl = "https://incredible-chimera-548b35.netlify.app/moviesCategory/2";
 
     const [movieList,setmovieList] = useState('');
 

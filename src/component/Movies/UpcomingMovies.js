@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const UpcomingMovies = () => {
 
-    const murl = "http://localhost:9090/moviesCategory/3";
+    const murl = "https://incredible-chimera-548b35.netlify.app/moviesCategory/3";
 
     const [UpcomingMoviesList,setUpcomingMovies] = useState('');
 
